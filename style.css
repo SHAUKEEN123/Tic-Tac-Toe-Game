@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #006992;
+    text-align: center;
+}
+.contanier{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    gap: 1.5vmin;
+}
+.Box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0, 0, 1.2);
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+#reset_btn{
+padding: 1rem;
+font-size: 1.25rem;
+background-color: #191913;
+color: #fff;
+border-radius: 1rem;
+border: none;
+cursor: pointer;
+}
+
+.massage_contanier{
+height: 100vmin;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 4rem;
+}
+.visibility{
+   display: none;
+}
+#msg{
+    color: #ffffc7;
+    font-size: 8vmin;
+}
+#new_btn{
+    padding: 1rem;
+font-size: 1.25rem;
+background-color: #191913;
+color: #fff;
+border-radius: 1rem;
+border: none;
+cursor: pointer;
+}
+
+@media screen and (max-width: 550px){
+    .massage_contanier{
+       margin-top: 30px;
+    }
+}
+@media screen and (max-width: 450px){
+    .massage_contanier{
+        margin: 50px;
+    }
+}
